@@ -1,0 +1,104 @@
+h1 {
+ margin-top:0;
+}
+
+body{
+        margin-top: 0;  /* make the website go into the top-left corner */
+        margin-left: 0;
+        margin-right:0;
+        margin-bottom:0;
+    }
+
+
+#content a{
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+
+.button {
+    background-color: #36383a; /* Gray background */
+    border: 0px solid green; /* no borders on buttons */
+    color: white; /* White text */
+    padding: 10px 0px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    font-size: larger;
+    text-decoration: none;
+    text-align:center;
+    font-family: Arial;
+}
+
+.button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.button:hover {
+    background-color: #46494c;
+    color:#2daa29;
+}
+
+.button:active{
+  background-color:#646a70;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+	background: #36383a;
+   color: white;
+   font-size: large;
+ }
+
+	
+#main {
+    position: relative;
+    margin-left: 200px;
+  font-size: large;
+  padding-bottom:11px;
+  background:white;
+  min-height: 99vh;
+  bottom: 0;
+}
+
+
+#top {
+  height:150px;
+  position: relative;
+  margin-left: 0px;
+  background: #279323;
+  padding: 10px;
+  background-image: url("clouds.jpg");
+  color:white;
+  text-align:center;
+}
+
+#toptext{
+  position:relative;
+  margin-left:35%;
+  padding:5px;
+  color:white;
+  background:#36383a;
+  width:25%;
+  font-family: Arial;
+}
+
+#text
+{
+  padding: 10px;
+}
+#footer{
+height:20px;
+position: absolute;
+background: #279323;
+width:100%;
+bottom: 0;
+right: 0;
+}
