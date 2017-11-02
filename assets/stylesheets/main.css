@@ -1,11 +1,23 @@
-h1 {
+h1
+{
  margin-top:0;
- font-size:4.0vh;
+ font-size:4.0vh 4.0vw;
 }
 
-h2 {
-  font-size:3.0vh;
+h2
+{
+  font-size:3.0vh 3.0vw;
   margin-top:0;
+}
+
+p 
+{
+font-size:2.0vh 2.0vw;
+}
+
+li
+{
+  font-size:2.0vh 2.0vw;
 }
 
 div img
@@ -16,7 +28,7 @@ div img
 }
 
 body{
-        margin-top: 0;  /* make the website go into the top-left corner */
+        margin-top: 0;  /* make the website go into the top-left corner/make sure it doesn't have whitespace anywhere */
         margin-left: 0;
         margin-right:0;
         margin-bottom:0;
@@ -37,7 +49,7 @@ body{
     color: white; /* White text */
     padding: 10px 0px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    width: 100%; /* Set a width if needed */
+    width: 11vw; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
     font-size: larger;
     text-decoration: none;
@@ -52,7 +64,7 @@ body{
     color:#2daa29;
 }
 
-/* Make the background lighter upon clikcing */
+/* Make the background lighter upon clicking */
 .button:active{
   background-color:#646a70;
 }
@@ -62,7 +74,8 @@ body{
     top: 0;
     bottom: 0;
     left: 0;
-    width:200px;
+    width:11%;
+    min-width: 120px;
 	background: #36383a;
    color: white;
    font-size: 2.0vh;
@@ -71,11 +84,12 @@ body{
 	
 #main {
     position: relative;
-    margin-left: 200px;
+    margin-left: 11%;
+    width:89%;
   font-size: large;
-  padding-bottom:11px;
+  padding-bottom:2vh;
   background:white;
-  min-height: 99vh;
+  min-height: 98vh;
   bottom: 0;
   background-image: url("diamond_upholstery.png");
 }
@@ -99,7 +113,7 @@ body{
   padding:10px;
   color:white;
   background:#36383a;
-  width:40vh;
+  width:20vw;
   font-family: Arial;
   height:auto;
 }
@@ -122,7 +136,8 @@ body{
   float:right;
 }
 #footer{
-height:20px;
+height:2vh;
+font-size:1.6vh; 
 position: absolute;
 background: #279323;
 width:100%;
