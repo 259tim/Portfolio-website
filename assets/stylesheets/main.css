@@ -91,7 +91,7 @@ body{
   background:white;
   min-height: 98vh;
   bottom: 0;
-  background-image: url("diamond_upholstery.png");
+  background-image: url("images/diamond_upholstery.png");
 }
 
 
@@ -101,7 +101,7 @@ body{
   margin-left: 0px;
   background: #279323;
   padding: 10px;
-  background-image: url("clouds.jpg");
+  background-image: url("images/clouds.jpg");
   color:white;
   text-align:center;
   height:auto;
@@ -128,8 +128,18 @@ body{
 {
   position:relative;
   float:right;
-  margin:20px;
+  margin:50px;
+  margin-bottom:80px;
+
 }
+
+#img2
+{
+  position:relative;
+  float:right;
+  margin:10px;
+}
+
 #imgsubtext
 {
   position:relative;
