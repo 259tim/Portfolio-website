@@ -26,6 +26,11 @@ li
   font-size:1.9vh;
 }
 
+.strike
+{
+  text-decoration: line-through;
+}
+
 div img
 {
   
